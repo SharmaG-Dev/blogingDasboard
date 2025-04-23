@@ -4,12 +4,34 @@
 
 
 @theme {
-  --color-primary: #006A71;
-  --color-primary-light: #48A6A7;
-  --color-primary-lightest: #9ACBD0;
+  --color-light: #fff;
+  --color-primary: #112D4E;
+  --color-primary-light: #3F72AF;
+  --color-dashboard: #F9F7F7;
+  --color-primary-lightest: #DBE2EF;
   --color-secondary: #636363;
   --color-secondary-lightest: #b4b4b4;
-  --color-dark: #181C14
+  --color-dark: #181C14;
+  --color-white-transparent: rgba(255, 255, 255, 0.5)
 }
 
 
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(215, 215, 215);
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}

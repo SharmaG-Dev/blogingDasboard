@@ -1,7 +1,8 @@
+import PageLayout from "@/components/layout/PageLayout";
 
 
 export default function Blogs() {
-    return <div>
+    return <PageLayout title={"Manage Blogs"}>
         Welcome to blogs dashboard
-    </div>
+    </PageLayout>
 }

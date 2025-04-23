@@ -6,7 +6,7 @@ import UserMenu from "./userMenu";
 
 export default function DashboardHeader() {
     return (
-        <div className="p-4 md:px-10 border-b border-secondary-lightest flex justify-between dark:bg-zinc-900">
+        <div className="p-4 md:px-10  flex justify-between dark:bg-zinc-900">
             <div >
                 <Logo />
             </div>
